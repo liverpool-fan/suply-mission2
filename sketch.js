@@ -61,7 +61,8 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
- 
+ console.log(packageBody.position.y)
+console.log(packageBody.position.x)	
 }
 
 function keyPressed() {
