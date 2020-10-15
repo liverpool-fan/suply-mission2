@@ -69,7 +69,7 @@ function keyPressed() {
     // Look at the hints in the document and understand how to make the package body fall only on
     Matter.Body.setStatic(packageBody , false);
   }
-   if (keyCode === LEFT_ARROW && packageBody.position.y <= 450) {
+   if (keyCode === LEFT_ARROW && packageBody.position.y <=450) {
 	helicopterSprite.x=helicopterSprite.x-20;
 	translation={x:-20,y:0}
 	Matter.Body.translate(packageBody , translation)
