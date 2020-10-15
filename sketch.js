@@ -42,9 +42,16 @@ rect3 = createSprite(500,600,25,150)
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
 
-
+rectangle1 = Bodies.rectangle(200,600,25,150,{isStatic:true});
+rectangle2 = Bodies.rectangle(350,670,325,30,{isStatic:true});
+rectangle3 = Bodies.rectangle(500,600,25,150,{isStatic:true});
+	World.add(world,rectangle1)
+	World.add(world,rectangle2)
+	World.add(world,rectangle3)
 	Engine.run(engine);
-  
+  rect1.shapeColor = "red"
+  rect2.shapeColor = "red"
+  rect3.shapeColor = "red"
 }
 
 
